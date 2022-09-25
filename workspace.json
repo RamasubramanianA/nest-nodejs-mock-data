@@ -4,6 +4,7 @@
   "projects": {
     "auth": "libs/auth",
     "data": "libs/data",
+    "lowdb": "libs/lowdb",
     "todos": "apps/todos"
   }
 }

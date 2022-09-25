@@ -16,7 +16,8 @@
     "baseUrl": ".",
     "paths": {
       "@enbook/auth": ["libs/auth/src/index.ts"],
-      "@enbook/data": ["libs/data/src/index.ts"]
+      "@enbook/data": ["libs/data/src/index.ts"],
+      "@enbook/lowdb": ["libs/lowdb/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
