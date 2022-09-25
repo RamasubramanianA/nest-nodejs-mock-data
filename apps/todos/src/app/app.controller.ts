@@ -15,11 +15,11 @@ export class AppController {
     return this.todoService.getTodos();
   }
 
-  // @Get()
-  // @Render('index')
-  // root() {
-  //   return {
-  //     todos: this.getData(),
-  //   };
-  // }
+  @Get()
+  @Render('index')
+  root() {
+    return {
+      todos: this.getData(),
+    };
+  }
 }
